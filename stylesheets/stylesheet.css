@@ -510,9 +510,13 @@ html {
   background: #f2f2f2;
 }
 
+body {
+  background: hsl(0, 0%, 95%);
+}
+
 #top-bar {
   z-index: 9999;
-  
+
   position: fixed;
   height: 100px;
 
