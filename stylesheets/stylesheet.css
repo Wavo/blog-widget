@@ -511,6 +511,8 @@ html {
 }
 
 #top-bar {
+  z-index: 9999;
+  
   position: fixed;
   height: 100px;
 
