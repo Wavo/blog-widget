@@ -45,6 +45,19 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src='bootstrap.min.js'></script>
 
+  <script>
+    $(function () {
+      $('#submission-embed').tooltip({ 
+          placement : 'top'
+        , title     : 'Type in a track to try it out!'
+        , trigger   : 'manual' 
+      })
+
+      $(window).one('scroll', function () {
+        $('#submission-embed').tooltip('show')
+      })
+    })
+  </script>
 </body>
 
 </html>

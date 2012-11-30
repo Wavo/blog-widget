@@ -590,3 +590,7 @@ html {
   left: 50%;
   margin-left: 100px;
 }
+
+.tooltip {
+  margin-top: 10px !important;
+}
